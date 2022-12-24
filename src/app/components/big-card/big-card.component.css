@@ -1,0 +1,30 @@
+
+.container__big-card{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    margin: 1rem;
+}
+
+
+.big-card__photo > img{
+    width: 43rem;
+}
+
+.big-card__photo > span{
+    color: rgba(255, 255, 255, 0.699);
+    font-size: 12px;
+    text-transform: capitalize;
+}
+
+
+.big-card__title > h1{
+    margin-top: 1rem;
+    
+}
+
+.big-card__description > p{
+    margin-top: 1rem;
+    color: gray;
+}

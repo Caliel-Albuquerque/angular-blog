@@ -1,0 +1,28 @@
+.container__menu-bar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 5rem;
+}
+
+.menu-bar__logo > img{
+    width: 2rem;
+}
+
+.menu-bar__menu > ul{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+li{
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 2px;
+    transition: 0.5s;
+}
+
+li a:hover{
+    color: aliceblue;
+}

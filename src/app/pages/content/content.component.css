@@ -1,0 +1,27 @@
+.container{
+    display: grid;
+    place-items: center;
+}   
+
+.container__img{
+    
+
+    margin-top: 2rem;
+}
+
+.container__img > img{
+    width: 65rem;
+
+    border-radius: 40px;
+}
+
+.content__notice{
+    height: 10rem;
+    width: calc(100% - 20rem);
+}
+
+.content__notice > h1{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-transform: uppercase;
+}
